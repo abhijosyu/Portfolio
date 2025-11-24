@@ -1,0 +1,192 @@
+
+.Entry {
+    position: static;
+    width: 100vw;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    z-index: 5 !important;
+    overflow-x: hidden;
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+.Header_Image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    animation: disappear3 forwards;
+    animation-timeline: view();
+    animation-range: exit 0% exit 100%;
+}
+
+.Header_Text {
+    position: absolute;
+    top: 45%;
+    margin-top: 5px;
+    z-index: 1;
+    scale: 2.5;
+    color: rgba(255, 255, 255, 0.87);
+    animation: disappear2 forwards;
+    animation-timeline: view();
+    animation-range: exit -300% exit 100%;
+
+
+
+}
+
+.Header_Text h1 {
+    backdrop-filter: blur(8px);
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+
+.Header_Button {
+    position: absolute;
+    top: 59%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 25px;
+    z-index: 1;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.109);
+    color: rgba(255, 255, 255, 0.681);
+
+}
+
+
+.Header_Button button {
+    animation: disappear forwards;
+    animation-timeline: view();
+    animation-range: exit -300% exit 50%;
+}
+
+
+
+@keyframes disappear {
+    from {
+        opacity: 1;
+        transform: translateY(0px)
+
+    } 
+    to {
+        opacity: 0;
+        transform: translateY(-20px)
+
+    }
+}
+
+@keyframes disappear2 {
+    from {
+        opacity: 1;
+        transform: translateY(0px)
+    } 
+    to {
+        opacity: 0;
+        transform: translateY(-20px)
+    }
+}
+
+@keyframes disappear3 {
+    from {
+        opacity: 1;
+    } 
+    to {
+        opacity: 0;
+    }
+}
+
+
+@media (max-width: 425px) {
+    .Entry {
+        position: static;
+        width: 100%;
+        top: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        z-index: 5 !important;
+        overflow-x: hidden;
+    
+    }
+
+    .Header_Text {
+        font-size: 1.8rem;
+    
+    }
+
+    .Header_Button {
+        left: 50vw;
+        top: 55%;
+        position: absolute;
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 400px) {
+    .Entry {
+        position: static;
+        width: 100%;
+        top: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        z-index: 5 !important;
+        overflow-x: hidden;
+    
+    }
+
+    .Header_Text {
+        font-size: 1.5rem;
+    
+    }
+
+    .Header_Button {
+        left: 50vw;
+        top: 55%;
+        position: absolute;
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 320px) {
+    .Entry {
+        position: static;
+        width: 110%;
+        top: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        z-index: 5 !important;
+        overflow-x: hidden;
+    
+    }
+
+    .Header_Text {
+        font-size: 1.5rem;
+        margin-right: 20px;
+    
+    }
+
+    .Header_Button {
+        left: 50vw;
+        top: 55%;
+        position: absolute;
+        transform: translateX(-50%);
+    }
+}
