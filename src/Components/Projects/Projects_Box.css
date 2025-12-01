@@ -1,0 +1,79 @@
+.Project_Box {
+    display: grid;
+    position: relative;
+    background-image: linear-gradient(to bottom,#2d9bbf9c, #1c234daa);
+    backdrop-filter: blur(8px);
+    margin-top: 4px;
+    width: 30%;
+    height: auto;
+    padding: auto;
+    justify-items: center;
+    border-radius: 20px;
+    transform: translateY(-20px);
+    padding: 20px;
+    transition: transform 0.3s ease, border 0.3s ease;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+
+}
+
+
+.Project_Box img {
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px rgba(6, 38, 52, 0.422);
+    scale: 0.9;
+    border-left: 2px solid rgb(255, 255, 255);
+    border-top: 2px solid rgb(255, 255, 255);
+    transition: scale 0.3s ease, border 0.3s ease;
+
+}
+
+.Project_Box img:hover {
+    border-right: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-left: none;
+    border-top: none;
+    scale: 1;
+    
+}
+
+.Project_Box:hover {
+    transform: translateY(-40px);
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: none;
+    border-top: none;
+
+}
+
+
+.Project_Box h1, h3, p{
+    margin: 0;
+    padding: 3px;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-family: "figtree", "sans-serif";
+
+}
+
+.Project_Box p {
+    width: 95%;
+}
+
+.Project_Box h1 {
+    margin-bottom: none;
+    margin-top: none;
+}
+
+.Project_Box img {
+    position: relative;
+    width: 100%;
+}
+
+.Buttons_Project {
+    display: flex;
+    padding-top: 10px;
+    gap: 20px;
+    z-index: 100;
+}
+

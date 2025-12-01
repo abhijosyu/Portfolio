@@ -2,7 +2,7 @@ import "./Link_Button.css"
 
 interface Link_Button_Props {
     Link: string;
-    Name: String;
+    Name?: String;
     Image?: string;
 }
 const Link_Button: React.FC<Link_Button_Props> = ({
