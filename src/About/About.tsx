@@ -11,7 +11,7 @@ const About: React.FC = () => {
                 <div className='about_container'>
                     <div className='about_box1'>
                         <div className='about_box1_text'>
-                            <p> Hi! I am a 2nd year computer science student at Northeaster with a concentration in AI.</p>
+                            <p> Hi! I am a 2nd year computer science student at Northeastern with a concentration in AI.</p>
                             <p> My interest in coding started with creating games and animations on a platform called Scratch.</p>
                             <p> I've explored the interest in middle school & high school through taking technology focused classes.</p>
                             <p> Today, I study at Northeastern’s Khoury College of Computer Sciences, where I focus on building</p>
