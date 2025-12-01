@@ -1,4 +1,5 @@
 
+import React from "react"
 import Nav_Button from "../Nav_Button/Nav_Button"
 import "./Header.css"
 const Header: React.FC = ({
@@ -14,8 +15,6 @@ const Header: React.FC = ({
             <Nav_Button Link="#skills" Name="Skills" ></Nav_Button>
             <Nav_Button Link="#about" Name="About" ></Nav_Button>
             <Nav_Button Link="#timeline" Name="Timeline" ></Nav_Button>
-            <Nav_Button Link="https://www.linkedin.com/in/abhiram-josyula-ba7426315/" Name="Contact" ></Nav_Button>
-
 
         </div>
 

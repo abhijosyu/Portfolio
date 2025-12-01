@@ -1,0 +1,51 @@
+.Contact {
+    background-color: rgb(8, 18, 22);
+    backdrop-filter: blur(6px);
+    position: relative;
+    width: 100vw;
+    height: 20vh;
+    top: 150vh;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    font-family: "Figtree", "sans-serif";
+
+}
+
+.Contact_Text {
+    color: rgb(101, 165, 215);
+}
+
+
+
+.Contact_Left {
+    position: relative;
+    left: 4%;
+
+}
+
+.Contact_Middle {
+    position: absolute;
+    display: grid;
+    justify-content: center;
+    left: 48%;
+    transform: translateX(-50%);
+    gap: 10px;
+    z-index: 10 !important;
+    text-align: center;
+    
+
+}
+
+.Left p {
+    font-size: 20px;
+}
+
+@keyframes appear_header {
+    from {
+        opacity: 0;
+    } 
+    to {
+        opacity: 1;
+    }
+  }

@@ -11,6 +11,7 @@
     border-radius: 20px;
     transform: translateY(-20px);
     padding: 20px;
+    scale: 0.95;
     transition: transform 0.3s ease, border 0.3s ease;
     border-left: 1px solid white;
     border-top: 1px solid white;
