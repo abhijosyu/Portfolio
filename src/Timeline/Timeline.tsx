@@ -20,10 +20,10 @@ const Timeline: React.FC = () => {
                     <Timeline_Circle Year="Fall 2025" Description="Learning Pandas, NumPy, Altair, Python, MatPlotLib, SQL | Algoritms & Data Structures"/>
 
                 </div>
-                <img className="image_timeline4" src="../../public/Star.png"/>
-                <img className="image_timeline" src="../../public/Star.png"/>
-                <img className="image_timeline2" src="../../public/Star.png"/>
-                <img className="image_timeline3" src="../../public/Star.png"/>
+                <img className="image_timeline4" src="Star.png"/>
+                <img className="image_timeline" src="Star.png"/>
+                <img className="image_timeline2" src="Star.png"/>
+                <img className="image_timeline3" src="Star.png"/>
 
             </div>
 

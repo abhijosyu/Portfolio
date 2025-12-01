@@ -21,7 +21,7 @@ const About: React.FC = () => {
                             <p> strong interest in bridging web development, data, and AI, and I’m always looking for new ways to </p>
                             <p> build tools that help people.</p>
                         </div>
-                        <img className="image_about" src="../../public/Northeastern.jpg"/>
+                        <img className="image_about" src="Northeastern.jpg"/>
                     </div>
                 </div>
         
