@@ -45,7 +45,7 @@ const Projects: React.FC = () => {
                 GitHub_Repo_Link="#projects"
                 Documentation_Link="#projects"
                 Name="ML Life Expectancy"
-                Frameworks="Frameworks: Python, Sklearn"
+                Frameworks="Frameworks: Python, Sklearn, NumPy, MatPlotLib"
                 Web_Icon="X.png"
                 GitHub_Icon="X.png"
                 Documentation_Icon="X.png"
