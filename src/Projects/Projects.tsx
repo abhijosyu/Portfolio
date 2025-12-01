@@ -38,6 +38,24 @@ const Projects: React.FC = () => {
                 or the progress of the task. Each task can be easily customized or deleted at any moment. Additionally, users can 
                 place tasks into custom categories and even sort tasks by various properties."
                   />
+
+
+                <Projects_Box 
+                Site_Link="#projects"
+                GitHub_Repo_Link="#projects"
+                Documentation_Link="#projects"
+                Name="ML Life Expectancy"
+                Frameworks="Frameworks: Python, Sklearn"
+                Web_Icon="X.png"
+                GitHub_Icon="X.png"
+                Documentation_Icon="X.png"
+                Image="WIP.png"
+                Description="This project is work-in-progress, and involves determining what factors contribute to life expectancy along 
+                with predicting the life expectancy of a population given certain factors. Factors such as environmental conditions, economic
+                standings, and demographics are taken into account."
+                  />
+
+
                 </div>
             </div>
         </section>

@@ -1,0 +1,50 @@
+.Timeline_Circle_Box {
+    display: grid;
+    position: relative;
+    background-image: linear-gradient(to bottom,#2dbf749c, #167530aa);
+    backdrop-filter: blur(8px);
+    margin-top: 4px;
+    width: 30%;
+    height: 14vh;
+    padding: none;
+    justify-items: center;
+    justify-content: center;
+    border-radius: 999px;
+    opacity: 0;
+    transition: transform 0.3s ease, border 0.3s ease, scale 0.3s ease;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    animation: appear_project_box forwards;
+    animation-timeline: view();
+    animation-range: enter -400% cover 10%;  
+    scale: 1;  
+
+}
+
+.Timeline_Circle_Box:hover {
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: none;
+    border-top: none;
+    scale: 1.05;
+
+
+}
+
+
+.Timeline_Circle_Box h2, p{
+    margin: 0;
+    font-family: "figtree", "sans-serif";
+
+}
+
+.Timeline_Circle_Box p {
+    margin-bottom: none;
+    margin-top: none;
+    text-align: center;
+}
+
+.Timeline_Circle_Box h2 {
+    margin-bottom: none;
+    margin-top: none;
+}

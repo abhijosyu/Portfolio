@@ -15,8 +15,9 @@
 
 .projects_container {
   display: flex;
-  padding: 10px;
   justify-content: center;
+  padding-left: 2%;
+  width: 95%;
   gap: 20px;
   animation: appear_project_box forwards;
   animation-timeline: view();
@@ -26,7 +27,7 @@
 .project {
   position: static;
   width: 100%;
-  height: 93%;
+  height: 100vh;
   background-image: linear-gradient(to bottom, rgb(25, 27, 63), #2c4e89);
   justify-content: center;
 

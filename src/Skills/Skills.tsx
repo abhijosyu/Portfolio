@@ -6,7 +6,7 @@ const Skills: React.FC = () => {
 
     return (
         <section id='skills'>
-
+        <div className='skills_total'>
             <div className='skills_section'>
                 <h1 className='skills_text'> SKILLS & COURSES </h1>
             </div>
@@ -33,7 +33,7 @@ const Skills: React.FC = () => {
 
 
             </div>
- 
+        </div>
         </section>
     )
 }
