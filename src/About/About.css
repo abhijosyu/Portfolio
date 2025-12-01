@@ -12,6 +12,13 @@
     justify-items: center;
 
   }
+
+  @media (max-width: 1024px) {
+    .about_section {
+      height: 105vh;
+    
+    }
+  }
   
 
   .about_text {

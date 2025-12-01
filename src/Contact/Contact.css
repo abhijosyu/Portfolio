@@ -37,6 +37,22 @@
 
 }
 
+.Contact_Right {
+    position: absolute;
+    display: grid;
+    justify-content: center;
+    right: 8%;
+    transform: translateX(-50%);
+    gap: 10px;
+    z-index: 10 !important;
+    text-align: center;
+}
+
+.Contact_Right a {
+    color: white;
+    text-decoration: underline;
+}
+
 .Left p {
     font-size: 20px;
 }

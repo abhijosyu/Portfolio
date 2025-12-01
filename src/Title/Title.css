@@ -23,7 +23,7 @@ body {
     position: relative;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: fill;
     z-index: 2;
 
 
@@ -103,7 +103,46 @@ body {
         opacity: 0;
     }
 }
+@media (max-width: 768px) {
+    .Entry {
+        position: static;
+        width: 100vw;
+        top: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        z-index: 5 !important;
+        overflow-x: hidden;
 
+
+    
+    }
+
+    .Header_Image {
+        position: absolute;
+        margin-left: 50px;
+        width: 120vw;
+        height: 100vh;
+        z-index: 2;
+        object-fit: fill;
+    
+    
+    }
+
+    .Header_Text {
+        margin-left: 100px;
+    
+    }
+
+    .Header_Button {
+        left: 60vw;
+        top: 60%;
+        position: absolute;
+        transform: translateX(-50%);
+    }
+}
 
 @media (max-width: 425px) {
     .Entry {

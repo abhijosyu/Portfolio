@@ -7,6 +7,15 @@
   
 }
 
+
+
+@media (max-width: 1024px) {
+  .timeline_section {
+    height: 170vh;
+  
+  }
+}
+
 .image_timeline {
   position: absolute;
   z-index: 99;
